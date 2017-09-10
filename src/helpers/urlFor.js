@@ -1,5 +1,5 @@
 const urlFor = (endpoint)=> {
-  return 'https://note-api-davidmpena.herokuapp.com/' + endpoint;
+  return 'https://notes-api-davidmpena.herokuapp.com/' + endpoint;
 
 
 };
