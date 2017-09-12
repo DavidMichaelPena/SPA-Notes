@@ -36,6 +36,11 @@ class App extends Component {
 
   }
 
+  submitNote = (data) => {
+    console.log(data);
+
+  }
+
   render() {
     const { showNote, notes, note } = this.state; 
 
@@ -46,6 +51,7 @@ class App extends Component {
         { showNote ? 
           <Note
             note={note} 
+            submitNote={this.submitNote}
           /> 
           : 
           <List 
